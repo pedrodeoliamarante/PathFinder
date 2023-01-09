@@ -6,7 +6,7 @@ To run the application, follow these steps:
 
 1. Clone this repository to your local machine
 2. Install dependencies using `npm install`
-3. Run the Spark server using the gradle task `hw-campuspaths-server:runSpark`
+3. Run the Spark server
 4. Start the React server using `npm start`
 
 ## Demo
