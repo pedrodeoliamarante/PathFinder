@@ -1,0 +1,18 @@
+# Find a path with Dijkstra's algorithm when
+# there are two paths and the longest is the most expensive
+
+CreateGraph simpleGraph
+
+AddNode simpleGraph A
+AddNode simpleGraph B
+AddNode simpleGraph C
+
+AddEdge simpleGraph A B 1.0
+AddEdge simpleGraph B C 1.5
+AddEdge simpleGraph A C 10.0
+
+FindPath simpleGraph A B
+
+FindPath simpleGraph B C
+
+FindPath simpleGraph A C

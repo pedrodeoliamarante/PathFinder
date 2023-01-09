@@ -1,0 +1,25 @@
+# Find a path with Dijkstra's algorithm when
+# the path has labels with doubles that have a big number of decimal places
+
+created graph simpleGraph
+
+added node A to simpleGraph
+added node B to simpleGraph
+added node C to simpleGraph
+
+
+added edge 0.231 from A to B in simpleGraph
+added edge 0.400 from A to C in simpleGraph
+added edge 1.760 from B to C in simpleGraph
+
+path from A to B:
+A to B with weight 0.231
+total cost: 0.231
+
+path from A to C:
+A to C with weight 0.400
+total cost: 0.400
+
+path from B to C:
+B to C with weight 1.760
+total cost: 1.760

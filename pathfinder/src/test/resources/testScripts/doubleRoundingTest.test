@@ -1,0 +1,19 @@
+# Find a path with Dijkstra's algorithm when
+# the path has labels with doubles that have a big number of decimal places
+
+CreateGraph simpleGraph
+
+AddNode simpleGraph A
+AddNode simpleGraph B
+AddNode simpleGraph C
+
+
+AddEdge simpleGraph A B 0.231
+AddEdge simpleGraph A C 0.3999
+AddEdge simpleGraph B C 1.75999
+
+FindPath simpleGraph A B
+
+FindPath simpleGraph A C
+
+FindPath simpleGraph B C

@@ -1,0 +1,5 @@
+rootProject.name = 'campuspaths'
+
+include 'graph'
+include 'pathfinder'
+include 'campuspaths-server'
